@@ -33,9 +33,6 @@
 
     <string name="too_many_dice">Failed. Too many dice types.</string>
     <string name="question_mark">\?</string>
-    <string name="banner_ad_unit_id">ca-app-pub-8279946203233666/2576683239</string>
-
-
 
     <string name="hint_enter_sides"># sides</string>
     <string name="hint_enter_dice"># dice</string>
