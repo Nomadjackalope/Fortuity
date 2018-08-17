@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center" >
+
+        <CheckedTextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/yellow"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/yellow"
+            android:checkMark="@drawable/colorselect_yellow"
+            android:clickable="true"
+            android:checked="false" />
+
+        <CheckedTextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/pink"
+            android:layout_alignTop="@+id/yellow"
+            android:layout_toRightOf="@+id/yellow"
+            android:layout_toEndOf="@+id/yellow"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/pink"
+            android:clickable="true"
+            android:checkMark="@drawable/colorselect_yellow"
+            android:checked="false" />
+
+        <CheckedTextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+
+            android:id="@+id/amber"
+            android:layout_below="@+id/yellow"
+            android:layout_alignLeft="@+id/yellow"
+            android:layout_alignStart="@+id/yellow"
+            android:layout_marginTop="20dp"
+            android:background="@color/amber"
+            android:checkMark="@drawable/colorselect_yellow"
+             />
+
+        <CheckedTextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+
+            android:id="@+id/teal"
+            android:background="@color/teal"
+            android:layout_alignTop="@+id/blue"
+            android:layout_alignLeft="@+id/green"
+            android:layout_alignStart="@+id/green"
+            android:checkMark="@drawable/colorselect_yellow"/>
+
+        <CheckedTextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+
+            android:id="@+id/blue"
+            android:layout_below="@+id/amber"
+            android:layout_alignLeft="@+id/amber"
+            android:layout_alignStart="@+id/amber"
+            android:layout_marginTop="20dp"
+            android:background="@color/indigo"
+            android:checkMark="@drawable/colorselect_yellow"
+             />
+
+        <CheckedTextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+
+            android:id="@+id/green"
+            android:background="@color/green"
+            android:layout_alignTop="@+id/amber"
+            android:layout_alignLeft="@+id/pink"
+            android:layout_alignStart="@+id/pink"
+            android:checkMark="@drawable/colorselect_yellow"/>
+
+        <CheckedTextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+
+            android:id="@+id/grey"
+            android:layout_below="@+id/blue"
+            android:layout_alignLeft="@+id/blue"
+            android:layout_alignStart="@+id/blue"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/grey"
+            android:checkMark="@drawable/colorselect_yellow"/>
+
+        <CheckedTextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+
+            android:id="@+id/white"
+            android:layout_below="@+id/blue"
+            android:layout_toRightOf="@+id/grey"
+            android:layout_toEndOf="@+id/grey"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/white"
+            android:checkMark="@drawable/colorselect_yellow"
+             />
+
+</RelativeLayout>

@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:focusableInTouchMode="true"
+    android:focusable="true"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/image_d4"
+            style="@style/DiceButtons"
+                android:text="@string/button_d4"
+                android:clickable="true"
+                android:gravity="center"
+                android:maxWidth="67dp"
+                android:textSize="18sp"
+                android:src="@drawable/d4_anim"
+                android:scaleType="centerInside"
+                android:contentDescription="@string/empty_custom_die" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/button_d4"
+            android:id="@+id/button_d4"
+            android:gravity="center"
+             />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/image_d6"
+        style="@style/DiceButtons"
+        android:clickable="true"
+        android:gravity="center"
+        android:maxWidth="67dp"
+        android:textSize="18sp"
+        android:src="@drawable/d6_anim"
+        android:scaleType="centerInside" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/button_d6"
+            android:id="@+id/button_d6"
+            android:gravity="center"
+             />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+    <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/image_d8"
+        style="@style/DiceButtons"
+            android:clickable="true"
+            android:gravity="center"
+            android:maxWidth="67dp"
+            android:textSize="18sp"
+        android:src="@drawable/d8_anim"
+        android:scaleType="centerInside" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/button_d8"
+            android:id="@+id/button_d8"
+            android:gravity="center"
+             />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/image_d10"
+            style="@style/DiceButtons"
+            android:clickable="true"
+            android:gravity="center"
+            android:maxWidth="67dp"
+            android:textSize="18sp"
+            android:src="@drawable/d10_anim"
+            android:scaleType="centerInside" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/button_d10"
+            android:id="@+id/button_d10"
+            android:gravity="center"
+             />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/image_d12"
+            style="@style/DiceButtons"
+            android:clickable="true"
+            android:gravity="center"
+            android:maxWidth="67dp"
+            android:textSize="18sp"
+            android:src="@drawable/d12_anim"
+            android:scaleType="centerInside" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/button_d12"
+            android:id="@+id/button_d12"
+            android:gravity="center"
+             />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/image_d20"
+            style="@style/DiceButtons"
+            android:clickable="true"
+            android:gravity="center"
+            android:maxWidth="67dp"
+            android:textSize="18sp"
+            android:src="@drawable/d20_anim"
+            android:scaleType="centerInside"
+            android:longClickable="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/button_d20"
+            android:id="@+id/button_d20"
+            android:gravity="center"
+             />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/image_d100"
+            style="@style/DiceButtons"
+            android:clickable="true"
+            android:gravity="center"
+            android:maxWidth="67dp"
+            android:textSize="18sp"
+            android:src="@drawable/d10_anim"
+            android:scaleType="centerInside" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/button_d100"
+            android:id="@+id/button_d100"
+            android:gravity="center"
+             />
+    </RelativeLayout>
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="67dp"
+            android:id="@+id/plus"
+            android:text="+"
+            android:textSize="40sp"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:minWidth="30dp"
+            android:gravity="center"
+            android:layout_weight="0.5" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="67dp"
+            android:id="@+id/bonus"
+            android:singleLine="true"
+            android:imeOptions="actionDone"
+            android:textSize="40sp"
+            android:gravity="bottom"
+            android:inputType="number"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="67dp"
+            android:text="="
+            android:textSize="40sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/textView2"
+            android:layout_weight="0.5" />
+
+    <TextView
+            android:layout_width="0dp"
+            android:layout_height="67dp"
+            android:id="@+id/total"
+            android:clickable="true"
+            android:textSize="40sp"
+            android:text="123"
+            android:layout_gravity="center"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="8dp"
+        android:layout_weight="1" />
+
+</LinearLayout>

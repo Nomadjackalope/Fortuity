@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:paddingTop="3dp"
+    android:paddingLeft="10dp"
+    android:paddingBottom="3dp"
+    android:paddingRight="10dp"
+    android:gravity="center">
+
+    <LinearLayout
+        android:id="@+id/LinearLayoutTop"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="-1dp">
+
+        <TextView
+            android:layout_width="67dp"
+            android:layout_height="67dp"
+            android:id="@+id/custom_button_1"
+            android:text="@string/empty_custom_die"
+            android:clickable="true"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:maxWidth="67dp"
+            android:textSize="18sp"
+            android:background="@drawable/outline"
+            android:longClickable="true"
+            style="@style/fav_roll_button" />
+
+        <TextView
+            android:layout_width="67dp"
+            android:layout_height="67dp"
+            android:id="@+id/custom_button_2"
+            android:text="@string/empty_custom_die"
+            android:clickable="true"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:maxWidth="67dp"
+            android:textSize="18sp"
+            android:background="@drawable/outline"
+            android:layout_marginLeft="-1dp"
+            android:longClickable="true" />
+
+
+        <TextView
+            android:layout_width="67dp"
+            android:layout_height="67dp"
+            android:id="@+id/custom_button_3"
+            android:text="@string/empty_custom_die"
+            android:clickable="true"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:maxWidth="67dp"
+            android:textSize="18sp"
+            android:background="@drawable/outline"
+            android:layout_marginLeft="-1dp"
+            android:longClickable="true" />
+
+
+        <TextView
+            android:layout_width="67dp"
+            android:layout_height="67dp"
+            android:id="@+id/custom_button_4"
+            android:text="@string/empty_custom_die"
+            android:clickable="true"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:maxWidth="67dp"
+            android:textSize="18sp"
+            android:background="@drawable/outline"
+            android:layout_marginLeft="-1dp"
+            android:longClickable="true"
+            style="@style/fav_roll_button" />
+
+
+        <TextView
+            android:layout_width="67dp"
+            android:layout_height="67dp"
+            android:id="@+id/custom_roll"
+            android:text="@string/roll"
+            android:clickable="true"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:maxWidth="67dp"
+            android:textSize="18sp"
+            android:background="@drawable/fav_click"
+            android:layout_marginLeft="-1dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayoutBot"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/LinearLayoutTop"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center"
+        android:layout_alignRight="@+id/LinearLayoutTop"
+        android:layout_alignEnd="@+id/LinearLayoutTop">
+
+        <TextView
+            android:layout_width="67dp"
+            android:layout_height="67dp"
+            android:id="@+id/custom_button_5"
+            android:text="@string/empty_custom_die"
+            android:clickable="true"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:maxWidth="67dp"
+            android:textSize="18sp"
+            android:background="@drawable/outline"
+            android:longClickable="true" />
+
+
+        <TextView
+            android:layout_width="67dp"
+            android:layout_height="67dp"
+            android:id="@+id/custom_button_6"
+            android:text="@string/empty_custom_die"
+            android:clickable="true"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:maxWidth="67dp"
+            android:textSize="18sp"
+            android:background="@drawable/outline"
+            android:layout_marginLeft="-1dp"
+            android:longClickable="true" />
+
+
+        <TextView
+            android:layout_width="67dp"
+            android:layout_height="67dp"
+            android:id="@+id/custom_button_7"
+            android:text="@string/empty_custom_die"
+            android:clickable="true"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:maxWidth="67dp"
+            android:textSize="18sp"
+            android:background="@drawable/outline"
+            android:layout_marginLeft="-1dp"
+            android:longClickable="true" />
+
+
+        <RelativeLayout
+            android:layout_width="67dp"
+            android:layout_height="67dp"
+            android:layout_weight="1"
+            android:background="@drawable/delete"
+            android:layout_marginLeft="-1dp"
+            android:id="@+id/fav_total"
+            android:clickable="true"
+            android:longClickable="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="="
+                android:textSize="25sp"
+                android:id="@+id/textView"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="62dp"
+                android:id="@+id/custom_button_total"
+                android:text="12"
+                android:clickable="false"
+                android:gravity="center"
+                android:textSize="40sp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/textView"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:layout_width="67dp"
+            android:layout_height="67dp"
+            android:id="@+id/custom_button_addFav"
+            android:text="@string/add_to_favorites"
+            android:clickable="true"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:maxWidth="67dp"
+            android:textSize="15sp"
+
+            android:background="@drawable/fav_click"
+            android:layout_marginLeft="-1dp" />
+    </LinearLayout>
+</RelativeLayout>

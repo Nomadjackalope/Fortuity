@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/scrollView"
+    android:fadeScrollbars="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Only show count in dice"
+        android:id="@+id/dice_display"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dice show individual as default"
+        android:id="@+id/individual_display"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/clear_favorites" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="Play Tutorial"
+        android:id="@+id/replay_tutorial"
+        android:textSize="14sp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/individual_display"
+        android:layout_toEndOf="@+id/individual_display"
+        android:layout_marginLeft="15dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="@string/clear_dice_history"
+        android:id="@+id/clear_dice_history"
+        android:textSize="14sp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/replay_tutorial"
+        android:layout_toEndOf="@+id/replay_tutorial"
+        android:layout_marginLeft="26dp"
+        android:layout_marginStart="26dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="@string/clear_favorites"
+        android:id="@+id/clear_favorites"
+        android:textSize="14sp"
+        android:layout_below="@+id/clear_dice_history"
+        android:layout_alignLeft="@+id/clear_dice_history"
+        android:layout_alignStart="@+id/clear_dice_history"
+        android:layout_alignRight="@+id/clear_dice_history"
+        android:layout_alignEnd="@+id/clear_dice_history" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New CheckBox"
+            android:id="@+id/checkBox"
+            android:layout_below="@+id/individual_display"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:visibility="gone" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New CheckBox"
+            android:id="@+id/checkBox2"
+            android:layout_below="@+id/checkBox"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+</ScrollView>

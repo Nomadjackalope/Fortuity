@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="dicePrimaryBackgroundColor">@color/md_blue_500</color>
+    <color name="diceSecondaryBackgroundColor">@color/md_blue_700</color>
+    <color name="diceColorBackgroundAccent">@color/md_pink_500</color>
+    <color name="diceBackgroundColor">@color/md_grey_600</color>
+    <color name="dicePrimaryTextColor">@color/md_white_1000</color>
+    <color name="diceSecondaryTextColor">@color/md_yellow_500</color>
+
+    <color name="white">@color/md_white_1000</color>
+    <color name="grey">@color/md_grey_600</color>
+    <color name="amber">@color/md_amber_900</color>
+    <color name="yellow">@color/md_yellow_A400</color>
+    <color name="teal">@color/md_teal_600</color>
+    <color name="indigo">@color/md_indigo_900</color>
+    <color name="pink">@color/md_pink_700</color>
+    <color name="green">@color/md_green_900</color>
+    <color name="greenlt">@color/md_green_700</color>
+    <color name="dark">#CC011503</color>
+
+
+</resources>

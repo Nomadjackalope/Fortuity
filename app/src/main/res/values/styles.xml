@@ -1,0 +1,100 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+
+    </style>
+    <!--<style name="Theme.Base" parent="AppTheme">
+        <item name="colorPrimary">@color/dicePrimaryBackgroundColor</item>
+        <item name="colorPrimaryDark">@color/diceSecondaryBackgroundColor</item>
+        <item name="colorAccent">@color/diceColorBackgroundAccent</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/diceBackgroundColor</item>
+        <item name="android:alertDialogStyle">@style/diceAlert</item>
+    </style>
+    <style name="Theme.Fourth" parent="Theme.Base"/>
+
+    <style name="ActionBarThemeOverlay" parent="">
+        <item name="android:textColorPrimary">@color/dicePrimaryTextColor</item>
+        <item name="colorControlHighlight">@color/diceBackgroundColor</item>
+        <item name="android:actionMenuTextColor">@color/dicePrimaryTextColor</item>
+        <item name="android:textColorSecondary">@color/diceSecondaryTextColor</item>
+        <item name="android:background">@color/dicePrimaryBackgroundColor</item>
+    </style>
+
+    <style name="ActionBar.TitleText" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/dicePrimaryTextColor</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="diceAlert" parent="Theme.AppCompat.Light">
+        <item name="android:textColorPrimary">@color/dicePrimaryTextColor</item>
+        <item name="colorControlHighlight">@color/diceBackgroundColor</item>
+        <item name="android:actionMenuTextColor">@color/dicePrimaryTextColor</item>
+        <item name="android:textColorSecondary">@color/diceSecondaryTextColor</item>
+        <item name="android:background">@color/dicePrimaryBackgroundColor</item>
+    </style>-->
+
+    <style name="UndoBar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">#EA222222</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:minWidth">300dp</item>
+    </style>
+
+    <style name="UndoBarMessage">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:maxWidth">200dp</item>
+    </style>
+
+    <style name="UndoBarButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:text">@string/undo</item>
+        <item name="android:textColor">@color/amber</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="fav_roll_button">
+        <item name="android:maxWidth">67dp</item>
+    </style>
+
+    <style name="Triangle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:src">@drawable/arrow_test</item>
+    </style>
+
+    <style name="DemoTextView">
+        <item name="android:background">#EA222222</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <style name="DiceButtons">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="TutButton">
+        <item name="android:background">@drawable/colorselect_green</item>
+    </style>
+
+</resources>

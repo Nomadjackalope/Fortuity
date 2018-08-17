@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/menu_change_color" android:title="@string/change_color" android:icon="@drawable/outline"/>
+    <item android:id="@+id/menu_change_name" android:title="@string/change_name" />
+    <item android:id="@+id/menu_upload_to_roller" android:title="@string/upload_fav" />
+    <item android:id="@+id/menu_add_highlighting" android:title="@string/add_highlight" />
+    <item android:id="@+id/menu_add_rule" android:title="@string/add_rule" />
+</menu>

@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">Fortuity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_d4">d4</string>
+    <string name="button_d6">d6</string>
+    <string name="button_d8">d8</string>
+    <string name="button_d10">d10</string>
+    <string name="button_d12">d12</string>
+    <string name="button_d20">d20</string>
+    <string name="button_d100">d%</string>
+    <string name="empty_custom_die">...</string>
+    <string name="add_to_favorites">Add to favorites</string>
+    <string name="roll">Roll dice</string>
+    <string name="noItems">No items</string>
+    <string name="newName">Type a new name here</string>
+
+    <string name="reroll_ones">Re-roll 1\'s</string>
+    <string name="create_fav">Create a favorite</string>
+    <string name="change_view">Change roll view</string>
+    <string name="remove_all_lowest">Remove all lowest</string>
+    <string name="remove_lowest">Remove lowest</string>
+    <string name="reroll_all_lowest">Reroll all lowest</string>
+    <string name="add_highlight">Add highlighting</string>
+    <string name="add_rule">Add Rule</string>
+
+    <string name="upload_fav">Upload to roller</string>
+    <string name="change_color">Change color</string>
+    <string name="change_name">Change name</string>
+
+    <string name="undo">Undo</string>
+
+    <string name="too_many_dice">Failed. Too many dice types.</string>
+    <string name="question_mark">\?</string>
+    <string name="banner_ad_unit_id">ca-app-pub-8279946203233666/2576683239</string>
+
+
+
+    <string name="hint_enter_sides"># sides</string>
+    <string name="hint_enter_dice"># dice</string>
+    <string name="hint_enter_mod"># modifier</string>
+    <string name="enter_sides">Enter number of sides</string>
+    <string name="enter_dice">Enter number of dice</string>
+    <string name="enter_mod">Enter modifier</string>
+
+    <string name="mod_or_die">Add a die or modifier</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="add">Add</string>
+
+    <string name="okay">Okay</string>
+    <string name="no_thanks">No thanks</string>
+    <string name="intro_tut">Would you like an introductory tutorial?</string>
+
+    <string name="modification_title">Select rules</string>
+    <string name="change">Change</string>
+
+    <string name="rule_title">Add a rule</string>
+    <string name="rules_least">Least</string>
+    <string name="rules_greatest">Greatest</string>
+
+    <string name="long_test">1d4 + 3d6 - 4 = 141d4 + 3d6 - 4 = 141d4 + 3d6 - 4 = 141d4 + 3d6 - 4 = 141d4 + 3d6 - 4 = 141d4 + 3d6 - 4 = 14</string>
+
+    <string name="clear_favorites">Delete favorites</string>
+    <string name="clear_dice_history">Delete dice history</string>
+
+    <string name="delete_favorites">Delete favorites?</string>
+    <string name="delete_history">Delete dice history?</string>
+
+    <string name="no_undo">You cannot undo this deletion.</string>
+    <string name="delete">Delete</string>
+
+    <string name="undobar_sample_message">Item deleted</string>
+
+    <string name="selected_configuration">standard</string>
+
+    <string name="dice_empty">Dice roll was empty. Did you remove the only die?</string>
+
+    <string name="die">Die</string>
+    <string name="mod">Modifier</string>
+
+    <string name="update_title">Recent updates</string>
+    <string name="update_message">\nRemoved ads  \n</string>
+
+</resources>

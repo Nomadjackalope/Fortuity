@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="dice_choices">
+        <item>@string/reroll_ones</item>
+        <item>@string/create_fav</item>
+    </array>
+
+    <array name="fav_choices">
+        <item>@string/upload_fav</item>
+        <item>@string/change_color</item>
+        <item>@string/change_name</item>
+    </array>
+
+    <array name="highlights">
+        <item>@string/rules_least</item>
+        <item>@string/rules_greatest</item>
+    </array>
+
+    <array name="rules">
+        <item>@string/reroll_ones</item>
+        <item>@string/remove_lowest</item>
+        <item>@string/reroll_all_lowest</item>
+    </array>
+
+    <array name="menu_main">
+        <item>@string/create_fav </item>
+        <item>@string/change_view </item>
+        <item>@string/reroll_ones </item>
+        <item>@string/remove_lowest </item>
+        <item>@string/reroll_all_lowest </item>
+        <item>@string/add_highlight </item>
+    </array>
+
+    <array name="menu_fav">
+        <item>@string/change_color </item>
+        <item>@string/change_name </item>
+        <item>@string/upload_fav </item>
+        <item>@string/add_highlight </item>
+        <item>@string/add_rule </item>
+    </array>
+
+</resources>

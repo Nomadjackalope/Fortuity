@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/switch1"
+        android:layout_gravity="center_horizontal"
+        android:textOn="Modifier"
+        android:textOff="Die"
+        android:clickable="true"
+        android:checked="false"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:showText="true" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/dice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_enter_dice"
+            android:visibility="visible"
+            android:layout_weight="1"
+            android:inputType="number" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberSigned"
+            android:ems="10"
+            android:id="@+id/mod"
+            android:hint="Modifier"
+            android:visibility="gone"
+            android:layout_weight="1" />
+
+        <EditText
+            android:id="@+id/sides"
+            android:inputType="number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_enter_sides"
+            android:visibility="visible"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</LinearLayout>
